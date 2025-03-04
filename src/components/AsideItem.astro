@@ -1,0 +1,18 @@
+---
+import type { Playlist } from '@/lib/data'
+import Image from 'astro/components/Image.astro'
+
+interface Props {
+  playlist: Playlist
+}
+
+const plist = Astro.props.playlist
+---
+
+<li class="flex gap-2.5 p-2 rounded-lg w-full cursor-pointer hover:bg-zinc-800">
+  <Image src={plist.cover} alt={plist.title} inferSize class='h-14 w-14 rounded-lg' />
+  <div>
+    <h3 class="font-bold">{plist.title}</h3>
+    <span class="text-gray-400">{plist.artists.join(', ')}</span>
+  </div>
+</li>

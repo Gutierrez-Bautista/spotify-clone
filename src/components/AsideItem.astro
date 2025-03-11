@@ -7,12 +7,15 @@ interface Props {
 }
 
 const plist = Astro.props.playlist
+const playlistUrl = '/playlist/' + plist.albumId
 ---
 
-<li class="flex gap-2.5 p-2 rounded-lg w-full cursor-pointer hover:bg-zinc-800">
-  <Image src={plist.cover} alt={plist.title} inferSize class='h-14 w-14 rounded-lg' />
-  <div>
-    <h3 class="font-bold">{plist.title}</h3>
-    <span class="text-gray-400">{plist.artists.join(', ')}</span>
-  </div>
+<li class="p-2 rounded-lg w-full cursor-pointer hover:bg-zinc-800">
+  <a href={playlistUrl} class="flex gap-2.5">
+    <Image src={plist.cover} alt={plist.title} inferSize class='h-14 w-14 rounded-lg' />
+    <div>
+      <h3 class="font-bold">{plist.title}</h3>
+      <span class="text-gray-400">{plist.artists.join(', ')}</span>
+    </div>
+  </a>
 </li>

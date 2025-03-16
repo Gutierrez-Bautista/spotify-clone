@@ -318,4 +318,67 @@ export const songs: Song[] = [
     "album": "Chill Lo-Fi Music",
     "duration": "2:54"
   },
+  {
+    "id": 1,
+    "albumId": 6,
+    "title": "JavaScript is the way",
+    "image": "https://f4.bcbits.com/img/a1962013209_16.jpg",
+    "artists": ["Tenno"],
+    "album": "Study Session",
+    "duration": "2:29"
+  },
+  {
+    "id": 2,
+    "albumId": 6,
+    "title": "Night's End",
+    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "2:54"
+  },
+  {
+    "id": 3,
+    "albumId": 6,
+    "title": "City Lights",
+    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "artists": ["Urban Nocturne"],
+    "album": "Midnight Tales",
+    "duration": "3:11"
+  },
+  {
+    "id": 4,
+    "albumId": 6,
+    "title": "Coffee Daze",
+    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:40"
+  },
+  {
+    "id": 5,
+    "albumId": 6,
+    "title": "Skyline Serenade",
+    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "2:15"
+  },
+  {
+    "id": 6,
+    "albumId": 6,
+    "title": "Keep focus!",
+    "image": `https://f4.bcbits.com/img/a1435058381_65.jpg`,
+    "artists": ["Tenno"],
+    "album": "Study Session",
+    "duration": "1:59"
+  },
+  {
+    "id": 7,
+    "albumId": 6,
+    "title": "Night Drive",
+    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "artists": ["Urban Nocturne"],
+    "album": "Midnight Tales",
+    "duration": "2:58"
+  },
 ]
